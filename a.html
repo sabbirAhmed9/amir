@@ -3,6 +3,20 @@
 		<title>Simple Test</title>
 		
 		<style>
+		    ion-icon{
+				font-size: 11rem;
+				color: red;
+				background: black;
+				border-radius: 50%;
+				padding: 89px;
+			}
+			div.imgs{
+				width: 100%;
+				height: 95vh;
+				display: flex;
+				align-items: center;
+				justify-content: space-evenly;
+			}
 			img{
 				height: 300px;
 				color: #dc1431;
@@ -12,10 +26,15 @@
 	</style>
 	</head>
 	<body>
+		<ion-icon name="apps-outline"></ion-icon>
 		<ion-icon name="bar-chart-outline"></ion-icon>
-		<div>
-			<img src="./02sv.svg">
-			<img src="./03.svg">
+		<div class="imgs">
+			<img src="./left-arrow.png">
+			<img src="./right-arrow.png">
 		</div>
+		
+		<script></script>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 	</body>
 </html>
